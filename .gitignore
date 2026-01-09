@@ -1,0 +1,32 @@
+# Editor, IDE
+.vscode/
+.idea
+
+# macOS
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Generated files
+build/
+bin/
+log/
+data/Key/*
+data/Table/*
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Python
+__pycache__/
+.ipynb_checkpoints
+default-*.ipynb
