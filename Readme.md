@@ -10,6 +10,7 @@
   - [How to us](#how-to-us)
     - [Code construciton](#code-construciton)
     - [Test Examples](#test-examples)
+  - [License](#license)
 
 ## Related work
 Private Multivariate Function Evaluation using CKKS-based Homomorphic Encrypted LookUp Tables
@@ -113,6 +114,5 @@ Three-input function
 ./bin/gen_tables --type threeInput --bitNum 3 
 OMP_NUM_THREAD=1 ./bin/main_threeinput --n 4 --d 4 --test 6 --bitNum 3
 ```
-
 ## License
 - [MIT License](./LICENSE)
