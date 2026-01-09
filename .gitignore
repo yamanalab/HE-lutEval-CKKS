@@ -20,6 +20,8 @@ bin/
 log/
 data/Key/*
 data/Table/*
+!data/Key/.gitkeep
+!data/Table/.gitkeep
 
 # Compiled Dynamic libraries
 *.so
