@@ -113,3 +113,6 @@ Three-input function
 ./bin/gen_tables --type threeInput --bitNum 3 
 OMP_NUM_THREAD=1 ./bin/main_threeinput --n 4 --d 4 --test 6 --bitNum 3
 ```
+
+## License
+- [MIT License](./LICENSE)
