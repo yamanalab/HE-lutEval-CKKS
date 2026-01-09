@@ -13,7 +13,7 @@
   - [License](#license)
 
 ## Related work
-Private Multivariate Function Evaluation using CKKS-based Homomorphic Encrypted LookUp Tables
+H. Zhu, T. Suzuki, H. Yamana, "Private Multivariate Function Evaluation using CKKS-based Homomorphic Encrypted LookUp Tables", In Proceedings of 12th International Conference on Information Systems Security and Privacy (ICISSP 2026).
 
 ## Introduction
 This is a demo to evaluate functions with CKKS-based LUT.<br>
