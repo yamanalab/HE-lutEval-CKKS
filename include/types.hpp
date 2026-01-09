@@ -7,11 +7,9 @@
 
 namespace types {
 
-template <typename T>
-using vector2d = std::vector<std::vector<T>>;
+template <typename T> using vector2d = std::vector<std::vector<T>>;
 
-template <typename T>
-using vector3d = std::vector<std::vector<std::vector<T>>>;
+template <typename T> using vector3d = std::vector<std::vector<std::vector<T>>>;
 
 template <typename T>
 using vector4d = std::vector<std::vector<std::vector<std::vector<T>>>>;
@@ -44,4 +42,4 @@ using Ciphertext2d = vector2d<lbcrypto::Ciphertext<lbcrypto::DCRTPoly>>;
 using Ciphertext3d = vector3d<lbcrypto::Ciphertext<lbcrypto::DCRTPoly>>;
 using Ciphertext4d = vector4d<lbcrypto::Ciphertext<lbcrypto::DCRTPoly>>;
 
-}  // namespace types
+} // namespace types
