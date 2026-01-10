@@ -3,7 +3,6 @@
 ## Contents
 - [HE-lutEval-CKKS](#he-luteval-ckks)
   - [Contents](#contents)
-  - [Related work](#related-work)
   - [Introduction](#introduction)
   - [Prerequisites](#prerequisites)
   - [Building on Linux](#building-on-linux)
@@ -12,12 +11,13 @@
     - [Test Examples](#test-examples)
   - [License](#license)
 
-## Related work
-H. Zhu, T. Suzuki, H. Yamana, "Private Multivariate Function Evaluation using CKKS-based Homomorphic Encrypted LookUp Tables", In Proceedings of 12th International Conference on Information Systems Security and Privacy (ICISSP 2026).
 
 ## Introduction
 This is a demo to evaluate functions with CKKS-based LUT.<br>
 For testing, you have to change the parameters by yourself. I'm sorry for the inconvenience.
+
+This repository provides the text-based dataset and experimental code for the paper:
+H. Zhu, T. Suzuki, H. Yamana, "Private Multivariate Function Evaluation using CKKS-based Homomorphic Encrypted LookUp Tables", In Proceedings of 12th International Conference on Information Systems Security and Privacy (ICISSP 2026).
 
 ## Prerequisites
 - [OpenFHE 1.3.1](https://github.com/openfheorg/openfhe-development)
